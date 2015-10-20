@@ -5,16 +5,19 @@ ROS的通信机制主要实现在Github仓库[`ros/ros_comm`][repo_ros_comm]中�
 > ROS communications-related packages, including core client libraries (roscpp, rospy, roslisp) and graph introspection tools (rostopic, rosnode, rosservice, rosparam).
 
 该仓库主要包含C++、Python和CommonLisp下的ROS的客户端
+
 + [`rospy`][src_rospy]
 + [`roscpp`][src_roscpp]
 + [`roslisp`][repo_roslisp]
-和必要的通信工具
+
+和一些列的关键的工具，如
+
 + [`rostopic`][src_rostopic]
 + [`rosnode`][src_rosnode]
 + [`rosservice`][src_rosservice]
 + [`rosparam`][src_rosparam]
 
-这一章的主要分析对象是其中的Python实现。
+这一章的主要分析对象是`ros_comm`中的Python实现。
 
 <!-- GitHub Repos -->
 [repo_ros_comm]: https://github.com/ros/ros_comm
