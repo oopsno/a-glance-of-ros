@@ -2,6 +2,6 @@
 
 ROS通信机制主要实现在`ros_comm`中
 
-```hasekll
+```haskell
 main = putStrLn 42
 ```
