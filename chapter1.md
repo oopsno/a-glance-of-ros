@@ -1,3 +1,3 @@
-# First Chapter
+# ROS通信机制
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+ROS通信机制主要实现在`ros_comm`重的
