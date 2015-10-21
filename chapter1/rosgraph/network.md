@@ -20,7 +20,7 @@
 
 内部的`_is_unix_like_platform`方法的逻辑使得仅仅将FreeBSD和Linux视作类Unix平台，这将导致在其他类Unix平台上，获取本地地址时，仅仅能获取primary interface的IP。这在安装了多块网卡的机器上运行时有潜在问题。
 
-ROS Handshake Header见于本章的[公共概念](chapter1/concepts.md)。
+ROS Handshake Header见于本章的[公共概念][ch1-concepts]。
 
-
+[ch1-concepts]: https://oopsno.gitbooks.io/a-glance-of-ros/content/chapter1/concepts.html
 
